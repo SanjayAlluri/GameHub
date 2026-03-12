@@ -87,9 +87,17 @@ Simple terminal-based board display
 
 Computer makes random valid moves
 
+### How to Run
 
-### 🚀 How to Run
-Compile
+Compile:
+
+```
 g++ tictactoe.cpp -o tictactoe
-Run
+```
+
+Run:
+
+```
 ./tictactoe
+```
+
