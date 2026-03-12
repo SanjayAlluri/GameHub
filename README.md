@@ -61,3 +61,35 @@ Run:
 ```
 ./sudoku
 ```
+🎮 Tic-Tac-Toe (4×4) – C++ Terminal Game
+
+A simple 4×4 Tic-Tac-Toe game implemented in C++ where a human player competes against the computer in the terminal.
+
+The player uses X, while the computer uses O. The game continues until a player wins or the board becomes full.
+
+📌 Features
+
+4×4 Tic-Tac-Toe board
+
+Human vs Computer gameplay
+
+Turn-based system
+
+Input moves using numbers (0–15)
+
+Valid move checking
+
+Detects winning conditions
+
+Detects draw when the board is full
+
+Simple terminal-based board display
+
+Computer makes random valid moves
+
+
+🚀 How to Run
+Compile
+g++ tictactoe.cpp -o tictactoe
+Run
+./tictactoe
