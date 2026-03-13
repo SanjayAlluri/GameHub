@@ -94,3 +94,46 @@ Run:
 ./tictactoe
 ```
 
+## 🎮 Connect Four (5×5) – C++ Terminal Game with AI
+
+A terminal-based Connect Four–style game implemented in C++ where a human player competes against a computer-controlled AI.
+
+The game is played on a 5×5 grid, and the objective is to connect 4 pieces in a row (horizontally, vertically, or diagonally). The player can choose their piece color and whether to play first or second.
+
+The computer uses a recursive game search algorithm (Minimax-style) to determine the best possible move.
+
+### 📌 Features
+
+5×5 Connect Four style board
+
+Human vs Computer gameplay
+
+Turn-based system
+
+Pieces drop to the lowest available position in a column (gravity effect)
+
+Player chooses Red (R) or Blue (B)
+
+Option to start first or second
+
+AI opponent using recursive search to choose optimal moves
+
+Detects winning conditions:
+
+Horizontal connection of 4
+
+Vertical connection of 4
+
+Diagonal connection of 4
+
+Detects draw when the board becomes full
+
+Color-coded terminal display using ANSI color codes
+
+Column-based input for moves
+
+
+### 🖥️ How to Compile
+g++ connect4.cpp -o connect4
+### ▶️ How to Run
+./connect4
