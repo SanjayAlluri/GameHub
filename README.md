@@ -1,13 +1,6 @@
 # GameHub
 
 A collection of classical games implemented using **Data Structures and Algorithms in C++**.
-This repository demonstrates how classical algorithms can be applied to solve well-known puzzles and games.
-
-## Planned Games
-
-* Sudoku Solver
-* Maze Generator & Solver
-* Tic Tac Toe
 
 ---
 
